@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    --main-color1: rgb(155, 85, 249);
+    --main-color1-op7: rgb(155, 85, 249, 0.7);
+    --main-color1-op5: rgb(155, 85, 249, 0.5);
+    --main-color1-op2: rgb(155, 85, 249, 0.1);
+    --main-color2: rgb(115, 64, 255);
+    --main-white-op5: rgba(255, 255, 255, 0.5);
+    --main-white-op7: rgba(255, 255, 255, 0.7);
+    /* background-color: white; */
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+.bodyCover {
+    display: flex;
+}
+
+.sideMenuBar {
+    padding: 20px 0px;
+    box-sizing: border-box;
+    width: 15%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, var(--main-color1), var(--main-color2));
+    color: white;
+}
+
+.titleBoxIcon {
+    margin: auto;
+    margin-bottom: 10px;
+    width: max-content;
+}
+
+.titleIcon {
+    font-size: 30px;
+    margin: auto;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 2px solid var(--main-white-op5);
+}
+
+.menuContainer {
+    padding: 20px 0px;
+    color: var(--main-white-op5);
+}
+
+.menuConBox {
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.menuConBox:hover {
+    background-color: #7942E6;
+    color: white;
+}
+
+.menuIcon {
+    margin: auto 20px auto 0;
+}
+
+.menuContent {
+    font-weight: bold;
+}
+
+
+
+
+
+
+.midBody {
+    width: 85%;
+}
+
+.navBar {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid var(--main-color1-op2);
+}
+
+.navLeftContainer {
+    width: max-content;
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+}
+
+.navCon {
+    margin: auto;
+    margin-right: 20px;
+}
+
+.navIcon {
+    font-size: 26px;
+    color: var(--main-color1-op5);
+}
+
+.navBut {
+    background-color: var(--main-color1);
+    padding: 10px 0px;
+    margin: auto;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(75, 255, 135);
+}
+
+.editToolsBox {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.editTools {
+    color: var(--main-color1-op5);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px 0px;
+}
+
+.editTools:hover {
+    color: var(--main-color1);
+}
+
+.mainBox {
+    width: 90%;
+    /* background-color: #7942E6; */
+    height: calc(100% - 170px);
+    margin: auto;
+    box-shadow: 0px 0px 4px 4px var(--main-color1-op5);
+    border-radius: 10px;
+}
+
